@@ -1,0 +1,38 @@
+.checkoutContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 0 0 2px 2px;
+    padding: 21px;
+    font-size: 16px;
+}
+.labels{
+    color: #717d8b;
+    font-size: small;
+    align-items: initial;
+    margin-bottom: 5px;
+}
+.spaceBw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.convFeeDiv{
+    color: #8e99a7;
+    font-size: small;
+}
+.convFee{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hr{
+    width: calc(90% + 20px);
+    color: #b6bcc4;
+    margin:0;
+}
+.total{
+    margin-top:16px;
+    font-weight: bold;
+}
